@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "app.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Clave secreta utilizada para firmar y verificar los tokens JWT. Debe ser una cadena segura y suficientemente larga."
+    },
+    {
+      "name": "app.jwt.expiration",
+      "type": "java.lang.Long",
+      "description": "Tiempo de expiración del token JWT en milisegundos. Ejemplo: 86400000 para 24 horas."
+    }
+  ]
+}
